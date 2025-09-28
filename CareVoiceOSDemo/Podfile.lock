@@ -52,13 +52,13 @@ PODS:
     - TYCyclePagerView
     - YYImage
   - Defaults (4.2.2)
-  - DeviceKit (5.7.0)
+  - DeviceKit (5.6.0)
   - DGCharts (5.1.0):
     - DGCharts/Core (= 5.1.0)
   - DGCharts/Core (5.1.0)
   - DZNEmptyDataSet (1.8.1)
-  - FloatingPanel (3.0.1)
-  - GSPlayer (0.2.30)
+  - FloatingPanel (3.0.0)
+  - GSPlayer (0.2.29)
   - IQKeyboardCore (1.0.5)
   - IQKeyboardManagerSwift (7.2.0):
     - IQKeyboardManagerSwift/Appearance (= 7.2.0)
@@ -167,11 +167,11 @@ DEPENDENCIES:
   - JWTDecode (~> 3.3)
 
 SPEC REPOS:
-  https://github.com/thecarevoice/carevoiceos-common-sdk-spec:
+  https://github.com/thecarevoice/carevoiceos-common-sdk-spec.git:
     - CVCommon
-  https://github.com/thecarevoice/carevoiceos-design-sdk-spec:
+  https://github.com/thecarevoice/carevoiceos-design-sdk-spec.git:
     - CVDesign
-  https://github.com/thecarevoice/carevoiceos-ios-sdk-spec:
+  https://github.com/thecarevoice/carevoiceos-ios-sdk-spec.git:
     - CVWellness
   trunk:
     - ActiveLabel
@@ -225,11 +225,11 @@ SPEC CHECKSUMS:
   CVDesign: 1382ef713505042e65ed2c7bafdc53bfc8d8ebaf
   CVWellness: c91e8b01578ad6091552f3aa8b393bcbb7dc27b5
   Defaults: d785e56c0fb8890dc40351603f05c8e1df1bdd45
-  DeviceKit: d1a956e25b957efb60a87bfe70be4e00ef36846d
+  DeviceKit: 9f2e0b68984a384f864b0f4e40a54bae43636bd8
   DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  FloatingPanel: c20200f6ae6d17e057c87e9fdd8f224ad25ef40a
-  GSPlayer: 3529df8cfbdf1aaa45d77da332cc055ac40e61c4
+  FloatingPanel: dcea37373dffc1f93a05dd0268927f8b7476e5eb
+  GSPlayer: 7dabbf91a7deff92e512da587eb664d92d174edb
   IQKeyboardCore: 28c8bf3bcd8ba5aa1570b318cbc4da94b861711e
   IQKeyboardManagerSwift: 12d6ae3632ef744ccd033c048b566af13cc10d49
   IQKeyboardNotification: d7382c4466c5a5adef92c7452ebf861b36050088
