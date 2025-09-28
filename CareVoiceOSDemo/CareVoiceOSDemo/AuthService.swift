@@ -84,7 +84,7 @@ class AuthService {
         task.resume()
     }
     
-    static func signup(email: String, password: String, completion: @escaping (Result<Bool, NetworkError>) -> Void) {
+    static func signup(email: String, password: String, completion: @escaping (Result<LoginRes, NetworkError>) -> Void) {
         
         let loginRequest = LoginRequest(email: email, password: password)
         
@@ -118,7 +118,7 @@ class AuthService {
             }
             
             do {
-                let loginResponse = try JSONDecoder().decode(Bool.self, from: data)
+                let loginResponse = try JSONDecoder().decode(LoginRes.self, from: data)
                 completion(.success(loginResponse))
             } catch {
                 completion(.failure(.decodingFailed))
