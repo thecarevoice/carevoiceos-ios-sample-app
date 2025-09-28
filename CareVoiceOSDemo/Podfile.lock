@@ -1,0 +1,257 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - Alamofire (5.10.2)
+  - AMPopTip (4.12.0)
+  - AttributedString (3.4.2):
+    - AttributedString/Privacy (= 3.4.2)
+  - AttributedString/Privacy (3.4.2)
+  - CHTCollectionViewWaterfallLayout (0.9.10):
+    - CHTCollectionViewWaterfallLayout/Swift (= 0.9.10)
+  - CHTCollectionViewWaterfallLayout/Swift (0.9.10)
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaLumberjack/Core (3.8.5)
+  - CocoaLumberjack/Swift (3.8.5):
+    - CocoaLumberjack/Core
+  - CombineCocoa (0.4.1)
+  - CombineExt (1.8.0)
+  - CVCommon (0.11.0):
+    - CocoaLumberjack/Swift
+    - CombineExt
+    - DZNEmptyDataSet
+    - MJRefresh
+    - Moya (~> 15.0)
+    - Moya/Combine (~> 15.0)
+    - SSZipArchive
+  - CVDesign (0.11.0):
+    - ActiveLabel
+    - JTAppleCalendar
+    - Kingfisher (~> 7.0)
+    - MJRefresh
+    - SnapKit
+    - SwifterSwift (= 6.2.0)
+  - CVWellness (0.11.0):
+    - ActiveLabel
+    - AMPopTip
+    - AttributedString
+    - CHTCollectionViewWaterfallLayout
+    - CombineCocoa
+    - CombineExt
+    - Defaults
+    - DeviceKit
+    - DGCharts
+    - FloatingPanel
+    - GSPlayer
+    - IQKeyboardManagerSwift (< 8.0.0, >= 7.0.0)
+    - KDCircularProgress
+    - KTVHTTPCache (~> 3.0.0)
+    - ParallaxHeader (~> 3.0.0)
+    - Parchment (= 4.0)
+    - SearchTextField
+    - SkeletonView
+    - SVProgressHUD
+    - TYCyclePagerView
+    - YYImage
+  - Defaults (4.2.2)
+  - DeviceKit (5.7.0)
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FloatingPanel (3.0.1)
+  - GSPlayer (0.2.30)
+  - IQKeyboardCore (1.0.5)
+  - IQKeyboardManagerSwift (7.2.0):
+    - IQKeyboardManagerSwift/Appearance (= 7.2.0)
+    - IQKeyboardManagerSwift/Core (= 7.2.0)
+    - IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler (= 7.2.0)
+    - IQKeyboardManagerSwift/IQKeyboardToolbarManager (= 7.2.0)
+    - IQKeyboardManagerSwift/IQTextView (= 7.2.0)
+    - IQKeyboardManagerSwift/Resign (= 7.2.0)
+    - IQKeyboardNotification (= 1.0.3)
+    - IQTextInputViewNotification (= 1.0.5)
+  - IQKeyboardManagerSwift/Appearance (7.2.0):
+    - IQKeyboardManagerSwift/Core
+    - IQKeyboardNotification (= 1.0.3)
+    - IQTextInputViewNotification (= 1.0.5)
+  - IQKeyboardManagerSwift/Core (7.2.0):
+    - IQKeyboardNotification (= 1.0.3)
+    - IQTextInputViewNotification (= 1.0.5)
+  - IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler (7.2.0):
+    - IQKeyboardNotification (= 1.0.3)
+    - IQTextInputViewNotification (= 1.0.5)
+  - IQKeyboardManagerSwift/IQKeyboardToolbarManager (7.2.0):
+    - IQKeyboardManagerSwift/Core
+    - IQKeyboardManagerSwift/IQKeyboardToolbarManager/IQKeyboardToolbar (= 7.2.0)
+    - IQKeyboardNotification (= 1.0.3)
+    - IQTextInputViewNotification (= 1.0.5)
+  - IQKeyboardManagerSwift/IQKeyboardToolbarManager/IQKeyboardToolbar (7.2.0):
+    - IQKeyboardManagerSwift/Core
+    - IQKeyboardNotification (= 1.0.3)
+    - IQTextInputViewNotification (= 1.0.5)
+  - IQKeyboardManagerSwift/IQTextView (7.2.0):
+    - IQKeyboardManagerSwift/IQKeyboardToolbarManager/IQKeyboardToolbar
+    - IQKeyboardNotification (= 1.0.3)
+    - IQTextInputViewNotification (= 1.0.5)
+  - IQKeyboardManagerSwift/Resign (7.2.0):
+    - IQKeyboardManagerSwift/Core
+    - IQKeyboardNotification (= 1.0.3)
+    - IQTextInputViewNotification (= 1.0.5)
+  - IQKeyboardNotification (1.0.3)
+  - IQTextInputViewNotification (1.0.5):
+    - IQKeyboardCore (= 1.0.5)
+  - JTAppleCalendar (8.0.5)
+  - JWTDecode (3.3.0)
+  - KDCircularProgress (1.5.4)
+  - Kingfisher (7.12.0)
+  - KTVHTTPCache (3.0.4):
+    - CocoaAsyncSocket
+  - MJRefresh (3.7.9)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ParallaxHeader (3.0.0)
+  - Parchment (4.0.0)
+  - SearchTextField (1.2.4)
+  - SkeletonView (1.30.4)
+  - SnapKit (5.7.1)
+  - SSZipArchive (2.4.3)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwifterSwift (6.2.0):
+    - SwifterSwift/AppKit (= 6.2.0)
+    - SwifterSwift/Combine (= 6.2.0)
+    - SwifterSwift/CoreAnimation (= 6.2.0)
+    - SwifterSwift/CoreGraphics (= 6.2.0)
+    - SwifterSwift/CoreLocation (= 6.2.0)
+    - SwifterSwift/CryptoKit (= 6.2.0)
+    - SwifterSwift/Dispatch (= 6.2.0)
+    - SwifterSwift/Foundation (= 6.2.0)
+    - SwifterSwift/HealthKit (= 6.2.0)
+    - SwifterSwift/MapKit (= 6.2.0)
+    - SwifterSwift/SceneKit (= 6.2.0)
+    - SwifterSwift/SpriteKit (= 6.2.0)
+    - SwifterSwift/StoreKit (= 6.2.0)
+    - SwifterSwift/SwiftStdlib (= 6.2.0)
+    - SwifterSwift/UIKit (= 6.2.0)
+    - SwifterSwift/WebKit (= 6.2.0)
+  - SwifterSwift/AppKit (6.2.0)
+  - SwifterSwift/Combine (6.2.0)
+  - SwifterSwift/CoreAnimation (6.2.0)
+  - SwifterSwift/CoreGraphics (6.2.0)
+  - SwifterSwift/CoreLocation (6.2.0)
+  - SwifterSwift/CryptoKit (6.2.0)
+  - SwifterSwift/Dispatch (6.2.0)
+  - SwifterSwift/Foundation (6.2.0)
+  - SwifterSwift/HealthKit (6.2.0)
+  - SwifterSwift/MapKit (6.2.0)
+  - SwifterSwift/SceneKit (6.2.0)
+  - SwifterSwift/SpriteKit (6.2.0)
+  - SwifterSwift/StoreKit (6.2.0)
+  - SwifterSwift/SwiftStdlib (6.2.0)
+  - SwifterSwift/UIKit (6.2.0)
+  - SwifterSwift/WebKit (6.2.0)
+  - TYCyclePagerView (1.2.0)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift (= 3.8.5)
+  - CVCommon (= 0.11.0)
+  - CVDesign (= 0.11.0)
+  - CVWellness (= 0.11.0)
+  - JWTDecode (~> 3.3)
+
+SPEC REPOS:
+  https://github.com/thecarevoice/carevoiceos-common-sdk-spec:
+    - CVCommon
+  https://github.com/thecarevoice/carevoiceos-design-sdk-spec:
+    - CVDesign
+  https://github.com/thecarevoice/carevoiceos-ios-sdk-spec:
+    - CVWellness
+  trunk:
+    - ActiveLabel
+    - Alamofire
+    - AMPopTip
+    - AttributedString
+    - CHTCollectionViewWaterfallLayout
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - CombineCocoa
+    - CombineExt
+    - Defaults
+    - DeviceKit
+    - DGCharts
+    - DZNEmptyDataSet
+    - FloatingPanel
+    - GSPlayer
+    - IQKeyboardCore
+    - IQKeyboardManagerSwift
+    - IQKeyboardNotification
+    - IQTextInputViewNotification
+    - JTAppleCalendar
+    - JWTDecode
+    - KDCircularProgress
+    - Kingfisher
+    - KTVHTTPCache
+    - MJRefresh
+    - Moya
+    - ParallaxHeader
+    - Parchment
+    - SearchTextField
+    - SkeletonView
+    - SnapKit
+    - SSZipArchive
+    - SVProgressHUD
+    - SwifterSwift
+    - TYCyclePagerView
+    - YYImage
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  AMPopTip: cf89d8690aa6e59ddc86bf46c0ccabb3e7d148a1
+  AttributedString: 48343fcecea107c89319e09436b6d19e90e69981
+  CHTCollectionViewWaterfallLayout: b989a459788d7657ac010e03bc0f7eedca95a420
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  CombineExt: c4daa97ef75754d8ef319bd79edeef82652f3eea
+  CVCommon: 3e73ccf467ba11f4e2c3f8bd8337ee40087992a8
+  CVDesign: 1382ef713505042e65ed2c7bafdc53bfc8d8ebaf
+  CVWellness: c91e8b01578ad6091552f3aa8b393bcbb7dc27b5
+  Defaults: d785e56c0fb8890dc40351603f05c8e1df1bdd45
+  DeviceKit: d1a956e25b957efb60a87bfe70be4e00ef36846d
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FloatingPanel: c20200f6ae6d17e057c87e9fdd8f224ad25ef40a
+  GSPlayer: 3529df8cfbdf1aaa45d77da332cc055ac40e61c4
+  IQKeyboardCore: 28c8bf3bcd8ba5aa1570b318cbc4da94b861711e
+  IQKeyboardManagerSwift: 12d6ae3632ef744ccd033c048b566af13cc10d49
+  IQKeyboardNotification: d7382c4466c5a5adef92c7452ebf861b36050088
+  IQTextInputViewNotification: 4381fb828881983205fbee38f17da8a9fe2e835c
+  JTAppleCalendar: 16c6501b22cb27520372c28b0a2e0b12c8d0cd73
+  JWTDecode: 1ca6f765844457d0dd8690436860fecee788f631
+  KDCircularProgress: 98200c6b8e85d22bc04eb644721d3b1e12b0686b
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  KTVHTTPCache: 9e18fcc199609d7e2d5708c9b0184869a3dc993f
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ParallaxHeader: a343f55eb38f52a89c5820a77e14cf975b84e6aa
+  Parchment: 60038b444208afbcfd7c7d5b7d7accc0c036ab2c
+  SearchTextField: 40dc3cc57def5a211f263cac263622c163bbc25a
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwifterSwift: dd00873fb09cde19da88bdb2878f9fe70fe27b0f
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 18086e27a1b47d680f5075aabbf700cf72acb0c9
+
+COCOAPODS: 1.16.2

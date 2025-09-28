@@ -1,0 +1,26 @@
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/thecarevoice/carevoiceos-design-sdk-spec.git'
+source 'https://github.com/thecarevoice/carevoiceos-common-sdk-spec.git'
+source 'https://github.com/thecarevoice/carevoiceos-ios-sdk-spec.git'
+platform :ios, '15.1'
+
+target 'CareVoiceOSDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CareVoiceOSDemo
+  pod 'CVDesign', '0.11.0'
+  pod 'CVCommon', '0.11.0'
+  pod 'CVWellness', '0.11.0'
+  pod 'CocoaLumberjack/Swift', '3.8.5'
+  pod 'JWTDecode', '~> 3.3'
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.1'
+    end
+  end
+end
