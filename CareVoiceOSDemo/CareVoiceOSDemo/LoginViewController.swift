@@ -29,6 +29,7 @@ class LoginViewController: ViewController {
         view.layer.cornerRadius = 10
         view.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 0))
         view.leftViewMode = .always
+        view.isSecureTextEntry = true // 设置为密码类型
         return view
     }()
     
