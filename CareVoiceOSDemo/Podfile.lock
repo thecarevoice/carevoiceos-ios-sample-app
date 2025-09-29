@@ -167,11 +167,11 @@ DEPENDENCIES:
   - JWTDecode (~> 3.3)
 
 SPEC REPOS:
-  https://github.com/thecarevoice/carevoiceos-common-sdk-spec.git:
+  https://github.com/thecarevoice/carevoiceos-common-sdk-spec:
     - CVCommon
-  https://github.com/thecarevoice/carevoiceos-design-sdk-spec.git:
+  https://github.com/thecarevoice/carevoiceos-design-sdk-spec:
     - CVDesign
-  https://github.com/thecarevoice/carevoiceos-ios-sdk-spec.git:
+  https://github.com/thecarevoice/carevoiceos-ios-sdk-spec:
     - CVWellness
   trunk:
     - ActiveLabel
@@ -252,6 +252,6 @@ SPEC CHECKSUMS:
   TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: 18086e27a1b47d680f5075aabbf700cf72acb0c9
+PODFILE CHECKSUM: 71cd64ac20205ca2b5a1c2d8b163fabecd3cc40b
 
 COCOAPODS: 1.16.2
