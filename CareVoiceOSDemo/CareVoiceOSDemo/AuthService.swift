@@ -44,7 +44,7 @@ class AuthService {
         
         let loginRequest = LoginRequest(email: email, password: password)
         
-        guard let url = URL(string: "http://localhost:3005/api/app/auth/login") else {
+        guard let url = URL(string: "\(Config.baseURL)/api/app/auth/login") else {
             completion(.failure(.invalidURL))
             return
         }
@@ -88,7 +88,7 @@ class AuthService {
         
         let loginRequest = LoginRequest(email: email, password: password)
         
-        guard let url = URL(string: "http://localhost:3005/api/app/auth/register") else {
+        guard let url = URL(string: "\(Config.baseURL)/api/app/auth/register") else {
             completion(.failure(.invalidURL))
             return
         }
