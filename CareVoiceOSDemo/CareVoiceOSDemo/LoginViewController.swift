@@ -95,7 +95,7 @@ class LoginViewController: ViewController {
             switch result {
             case .success(let response):
                 DispatchQueue.main.async {
-                    ProfileManager.shared.authRes = response.data?.sdk
+                    ProfileManager.shared.authRes = response.data
                     self?.loginSuccess()
                 }
             case .failure(let error):

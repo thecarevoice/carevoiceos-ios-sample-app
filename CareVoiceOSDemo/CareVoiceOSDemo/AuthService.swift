@@ -18,6 +18,7 @@ struct LoginRes: Codable {
 
 struct TokenData: Codable {
     let sdk: AuthRes?
+    let cvUserUniqueId: String
 }
 
 struct AuthRes: Codable {
@@ -132,14 +133,14 @@ class AuthService {
 extension AuthService {
     
     static func initSDK(_ completion: @escaping (_ success: Bool) -> Void) {
-        guard let accessToken = ProfileManager.shared.authRes?.accessToken,
-              let refreshToken = ProfileManager.shared.authRes?.refreshToken,
-              let expiresIn = ProfileManager.shared.authRes?.expiresIn,
+        guard let accessToken = ProfileManager.shared.authRes?.sdk?.accessToken,
+              let refreshToken = ProfileManager.shared.authRes?.sdk?.refreshToken,
+              let expiresIn = ProfileManager.shared.authRes?.sdk?.expiresIn,
               let jwt = try? decode(jwt: accessToken),
               let tenant = jwt.body["tenant"] as? String else { return }
                 
         let convertExpirationTime = Date().addingTimeInterval(TimeInterval(expiresIn)).timeIntervalSince1970
-        CVWellness.initialize("https://apis.carevoiceos.com")
+        CVWellness.initialize(Config.baseURL)
         CVWellness.setupTenantCode(tenantCode: tenant)
         CVWellness.setupAuthorization(token: accessToken, refreshToken: refreshToken, expirationTime: Int(convertExpirationTime))
         CVWellness.initializingSDK(false) { viewController in

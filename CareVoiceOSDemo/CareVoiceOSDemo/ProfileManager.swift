@@ -11,14 +11,14 @@ import Defaults
 typealias DefaultStorage = Defaults
 
 extension Defaults.Keys {
-    static let authRes = Key<AuthRes?>("authRes")
+    static let authRes = Key<TokenData?>("authRes")
 }
 
 class ProfileManager {
     
     public static let shared = ProfileManager()
     
-    public var authRes: AuthRes? {
+    public var authRes: TokenData? {
         didSet {
             DefaultStorage[.authRes] = authRes
         }
@@ -29,7 +29,7 @@ class ProfileManager {
     }
     
     func isLogin() -> Bool {
-        if let accessToken = authRes?.accessToken, !accessToken.isEmpty {
+        if let accessToken = authRes?.sdk?.accessToken, !accessToken.isEmpty {
             return true
         } else {
             return false
