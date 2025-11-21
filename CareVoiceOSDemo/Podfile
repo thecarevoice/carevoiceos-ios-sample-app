@@ -9,9 +9,9 @@ target 'CareVoiceOSDemo' do
   use_frameworks!
 
   # Pods for CareVoiceOSDemo
-  pod 'CVDesign', '0.11.0'
-  pod 'CVCommon', '0.11.0'
-  pod 'CVWellness', '0.11.0'
+  pod 'CVDesign', '0.12.1'
+  pod 'CVCommon', '0.12.1'
+  pod 'CVWellness', '0.12.1'
   pod 'CocoaLumberjack/Swift', '3.8.5'
   pod 'JWTDecode', '~> 3.3'
 
