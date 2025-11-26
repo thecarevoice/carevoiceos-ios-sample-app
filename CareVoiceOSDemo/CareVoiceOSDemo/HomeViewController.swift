@@ -82,6 +82,8 @@ class HomeViewController: ViewController {
         
         if UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            UIPasteboard.general.url = url
         }
     }
     
