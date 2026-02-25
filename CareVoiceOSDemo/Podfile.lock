@@ -14,96 +14,75 @@ PODS:
     - CocoaLumberjack/Core
   - CombineCocoa (0.4.1)
   - CombineExt (1.8.0)
-  - CVCommon (0.11.0):
-    - CocoaLumberjack/Swift
-    - CombineExt
-    - DZNEmptyDataSet
-    - MJRefresh
-    - Moya (~> 15.0)
-    - Moya/Combine (~> 15.0)
-    - SSZipArchive
-  - CVDesign (0.11.0):
-    - ActiveLabel
-    - JTAppleCalendar
-    - Kingfisher (~> 7.0)
-    - MJRefresh
-    - SnapKit
+  - CVCommon (3.0.4):
+    - CVCommon/iOS (= 3.0.4)
+  - CVCommon/Core (3.0.4):
+    - Alamofire (= 5.10.2)
+    - CocoaLumberjack/Swift (= 3.8.5)
+    - CombineExt (= 1.8.0)
+    - DZNEmptyDataSet (= 1.8.1)
+    - Moya (= 15.0)
+    - Moya/Combine (= 15.0)
+    - SSZipArchive (= 2.4.3)
+  - CVCommon/iOS (3.0.4):
+    - CVCommon/Core
+  - CVDesign (3.0.4):
+    - CVDesign/iOS (= 3.0.4)
+  - CVDesign/Core (3.0.4):
+    - ActiveLabel (= 1.1.0)
+    - JTAppleCalendar (= 8.0.5)
+    - Kingfisher (= 7.12.0)
+    - MJRefresh (= 3.7.9)
+    - SnapKit (= 5.7.1)
     - SwifterSwift (= 6.2.0)
-  - CVWellness (0.11.0):
-    - ActiveLabel
-    - AMPopTip
-    - AttributedString
-    - CHTCollectionViewWaterfallLayout
-    - CombineCocoa
-    - CombineExt
-    - Defaults
-    - DeviceKit
-    - DGCharts
-    - FloatingPanel
-    - GSPlayer
-    - IQKeyboardManagerSwift (< 8.0.0, >= 7.0.0)
-    - KDCircularProgress
-    - KTVHTTPCache (~> 3.0.0)
-    - ParallaxHeader (~> 3.0.0)
-    - Parchment (= 4.0)
-    - SearchTextField
-    - SkeletonView
-    - SVProgressHUD
-    - TYCyclePagerView
-    - YYImage
+  - CVDesign/iOS (3.0.4):
+    - CVDesign/Core
+  - CVTDActivitySDK (0.0.1)
+  - CVTDAsleepSDK (0.0.1)
+  - CVTDBiosenseSignalSDK (0.0.1)
+  - CVWellness/Core (3.0.4):
+    - ActiveLabel (= 1.1.0)
+    - AMPopTip (= 4.12.0)
+    - AttributedString (= 3.4.2)
+    - CHTCollectionViewWaterfallLayout (= 0.9.10)
+    - CombineCocoa (= 0.4.1)
+    - CombineExt (= 1.8.0)
+    - CVCommon
+    - CVDesign
+    - CVTDActivitySDK
+    - CVTDAsleepSDK
+    - CVTDBiosenseSignalSDK
+    - Defaults (= 4.2.2)
+    - DeviceKit (= 5.6.0)
+    - DGCharts (= 5.1.0)
+    - FloatingPanel (= 3.2.0)
+    - GSPlayer (= 0.2.30)
+    - IQKeyboardManagerSwift (= 7.0.3)
+    - KDCircularProgress (= 1.5.4)
+    - KTVHTTPCache (= 3.0.0)
+    - ParallaxHeader (= 3.0.0)
+    - Parchment (= 4.0.0)
+    - SearchTextField (= 1.2.4)
+    - SkeletonView (= 1.30.4)
+    - SVProgressHUD (= 2.3.1)
+    - TYCyclePagerView (= 1.2.0)
+    - YYImage (= 1.0.4)
+  - CVWellness/iOS (3.0.4):
+    - CVWellness/Core
   - Defaults (4.2.2)
   - DeviceKit (5.6.0)
   - DGCharts (5.1.0):
     - DGCharts/Core (= 5.1.0)
   - DGCharts/Core (5.1.0)
   - DZNEmptyDataSet (1.8.1)
-  - FloatingPanel (3.0.0)
-  - GSPlayer (0.2.29)
-  - IQKeyboardCore (1.0.5)
-  - IQKeyboardManagerSwift (7.2.0):
-    - IQKeyboardManagerSwift/Appearance (= 7.2.0)
-    - IQKeyboardManagerSwift/Core (= 7.2.0)
-    - IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler (= 7.2.0)
-    - IQKeyboardManagerSwift/IQKeyboardToolbarManager (= 7.2.0)
-    - IQKeyboardManagerSwift/IQTextView (= 7.2.0)
-    - IQKeyboardManagerSwift/Resign (= 7.2.0)
-    - IQKeyboardNotification (= 1.0.3)
-    - IQTextInputViewNotification (= 1.0.5)
-  - IQKeyboardManagerSwift/Appearance (7.2.0):
-    - IQKeyboardManagerSwift/Core
-    - IQKeyboardNotification (= 1.0.3)
-    - IQTextInputViewNotification (= 1.0.5)
-  - IQKeyboardManagerSwift/Core (7.2.0):
-    - IQKeyboardNotification (= 1.0.3)
-    - IQTextInputViewNotification (= 1.0.5)
-  - IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler (7.2.0):
-    - IQKeyboardNotification (= 1.0.3)
-    - IQTextInputViewNotification (= 1.0.5)
-  - IQKeyboardManagerSwift/IQKeyboardToolbarManager (7.2.0):
-    - IQKeyboardManagerSwift/Core
-    - IQKeyboardManagerSwift/IQKeyboardToolbarManager/IQKeyboardToolbar (= 7.2.0)
-    - IQKeyboardNotification (= 1.0.3)
-    - IQTextInputViewNotification (= 1.0.5)
-  - IQKeyboardManagerSwift/IQKeyboardToolbarManager/IQKeyboardToolbar (7.2.0):
-    - IQKeyboardManagerSwift/Core
-    - IQKeyboardNotification (= 1.0.3)
-    - IQTextInputViewNotification (= 1.0.5)
-  - IQKeyboardManagerSwift/IQTextView (7.2.0):
-    - IQKeyboardManagerSwift/IQKeyboardToolbarManager/IQKeyboardToolbar
-    - IQKeyboardNotification (= 1.0.3)
-    - IQTextInputViewNotification (= 1.0.5)
-  - IQKeyboardManagerSwift/Resign (7.2.0):
-    - IQKeyboardManagerSwift/Core
-    - IQKeyboardNotification (= 1.0.3)
-    - IQTextInputViewNotification (= 1.0.5)
-  - IQKeyboardNotification (1.0.3)
-  - IQTextInputViewNotification (1.0.5):
-    - IQKeyboardCore (= 1.0.5)
+  - FloatingPanel (3.2.0)
+  - GSPlayer (0.2.30)
+  - IQKeyboardManagerSwift (7.0.3)
   - JTAppleCalendar (8.0.5)
   - JWTDecode (3.3.0)
   - KDCircularProgress (1.5.4)
   - Kingfisher (7.12.0)
-  - KTVHTTPCache (3.0.4):
+  - KTVHTTPCache (3.0.0):
     - CocoaAsyncSocket
   - MJRefresh (3.7.9)
   - Moya (15.0.0):
@@ -160,15 +139,17 @@ PODS:
   - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
-  - CocoaLumberjack/Swift (= 3.8.5)
-  - CVCommon (= 0.11.0)
-  - CVDesign (= 0.11.0)
-  - CVWellness (= 0.11.0)
+  - CVCommon/iOS (= 3.0.4)
+  - CVDesign/iOS (= 3.0.4)
+  - CVWellness/iOS (= 3.0.4)
   - JWTDecode (~> 3.3)
 
 SPEC REPOS:
   https://github.com/thecarevoice/carevoiceos-common-sdk-spec.git:
     - CVCommon
+    - CVTDActivitySDK
+    - CVTDAsleepSDK
+    - CVTDBiosenseSignalSDK
   https://github.com/thecarevoice/carevoiceos-design-sdk-spec.git:
     - CVDesign
   https://github.com/thecarevoice/carevoiceos-ios-sdk-spec.git:
@@ -189,10 +170,7 @@ SPEC REPOS:
     - DZNEmptyDataSet
     - FloatingPanel
     - GSPlayer
-    - IQKeyboardCore
     - IQKeyboardManagerSwift
-    - IQKeyboardNotification
-    - IQTextInputViewNotification
     - JTAppleCalendar
     - JWTDecode
     - KDCircularProgress
@@ -221,24 +199,24 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
   CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
   CombineExt: c4daa97ef75754d8ef319bd79edeef82652f3eea
-  CVCommon: 3e73ccf467ba11f4e2c3f8bd8337ee40087992a8
-  CVDesign: 1382ef713505042e65ed2c7bafdc53bfc8d8ebaf
-  CVWellness: c91e8b01578ad6091552f3aa8b393bcbb7dc27b5
+  CVCommon: 9d3b2fb6579a550015f84d099b3edcd0242c0693
+  CVDesign: dbecf65c643effd216495da95c86b6cca30cc28a
+  CVTDActivitySDK: 0859380e0025537285f992d6a8ef291e35db555f
+  CVTDAsleepSDK: 206389d4b831fdc36d4bad93204964df0da7c5bd
+  CVTDBiosenseSignalSDK: bea2b007780e5cc3bf523aa49f0516ba2c621844
+  CVWellness: 4d0766dfe20ed43db3945d37514f2ef51f65f712
   Defaults: d785e56c0fb8890dc40351603f05c8e1df1bdd45
   DeviceKit: 9f2e0b68984a384f864b0f4e40a54bae43636bd8
   DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  FloatingPanel: dcea37373dffc1f93a05dd0268927f8b7476e5eb
-  GSPlayer: 7dabbf91a7deff92e512da587eb664d92d174edb
-  IQKeyboardCore: 28c8bf3bcd8ba5aa1570b318cbc4da94b861711e
-  IQKeyboardManagerSwift: 12d6ae3632ef744ccd033c048b566af13cc10d49
-  IQKeyboardNotification: d7382c4466c5a5adef92c7452ebf861b36050088
-  IQTextInputViewNotification: 4381fb828881983205fbee38f17da8a9fe2e835c
+  FloatingPanel: 5bc5d1fbcf146882b64747077070b75ae9cfff34
+  GSPlayer: 3529df8cfbdf1aaa45d77da332cc055ac40e61c4
+  IQKeyboardManagerSwift: f9c5dc36cba16ddd2e51fa7d51c34a2e083029b5
   JTAppleCalendar: 16c6501b22cb27520372c28b0a2e0b12c8d0cd73
   JWTDecode: 1ca6f765844457d0dd8690436860fecee788f631
   KDCircularProgress: 98200c6b8e85d22bc04eb644721d3b1e12b0686b
   Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
-  KTVHTTPCache: 9e18fcc199609d7e2d5708c9b0184869a3dc993f
+  KTVHTTPCache: 5d00ee9158f6171d313fd5c384a821cd057ce3a0
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   ParallaxHeader: a343f55eb38f52a89c5820a77e14cf975b84e6aa
@@ -252,6 +230,6 @@ SPEC CHECKSUMS:
   TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: 46895056ba9f629b9294ca6659b6cb8da28390c0
+PODFILE CHECKSUM: 1dc513f6eaec417eaaf6df2d270de02b6ef03991
 
 COCOAPODS: 1.16.2

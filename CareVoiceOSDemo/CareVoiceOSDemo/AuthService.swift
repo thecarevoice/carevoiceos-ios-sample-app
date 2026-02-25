@@ -139,10 +139,10 @@ extension AuthService {
               let tenant = jwt.body["tenant"] as? String else { return }
                 
         let convertExpirationTime = Date().addingTimeInterval(TimeInterval(expiresIn)).timeIntervalSince1970
-        CVWellness.initialize("https://apis.carevoiceos.com")
+        CVWellness.configureBaseURL("https://apis.carevoiceos.com")
         CVWellness.setupTenantCode(tenantCode: tenant)
         CVWellness.setupAuthorization(token: accessToken, refreshToken: refreshToken, expirationTime: Int(convertExpirationTime))
-        CVWellness.initializingSDK(false) { viewController in
+        CVWellness.initializeSDK { viewController in
             completion(true)
         }
     }
