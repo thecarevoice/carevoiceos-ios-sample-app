@@ -31,7 +31,9 @@ class TabBarViewController: UITabBarController {
         )
         
         let wellnessVC = createVC(
-            viewController: CVWellness.getViewController(false),
+            viewController: CVWellness.getViewController(false, consentCallback: { agreed in
+                print(agreed)
+            }),
             title: "Wellness",
             imageName: "leaf",
             selectedImageName: "leaf.fill"

@@ -30,7 +30,9 @@ class HomeViewController: ViewController {
     }
     
     @objc func wellnessButtonClick(sender: UIButton) {
-        let vc = CVWellness.getViewController(true)
+        let vc = CVWellness.getViewController(true, consentCallback: { agreed in
+            print(agreed)
+        })
         navigationController?.pushViewController(vc, animated: true)
     }
 }
