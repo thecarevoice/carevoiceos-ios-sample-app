@@ -213,11 +213,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CareVoiceOSDemo/CareVoiceOSDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KR9G98P8SN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CareVoiceOSDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "please allow us to access your camera";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "please allow us to access your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "please allow us to access your health data";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "please allow us to access your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "please allow us to access your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -229,7 +235,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.carevoiceos.demo.CareVoiceOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carevoiceos.os3.sdk.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -243,11 +249,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CareVoiceOSDemo/CareVoiceOSDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KR9G98P8SN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CareVoiceOSDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "please allow us to access your camera";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "please allow us to access your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "please allow us to access your health data";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "please allow us to access your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "please allow us to access your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -259,7 +271,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.carevoiceos.demo.CareVoiceOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carevoiceos.os3.sdk.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
