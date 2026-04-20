@@ -19,7 +19,7 @@ The integration process is designed to be straightforward, allowing you to focus
 Before running the iOS sample app, ensure you have the following iOS development tools:
 
 - **macOS 12.0 (Monterey) or higher**
-- **Xcode 14.0 or higher**
+- **Xcode 16.0 or higher**
 - **iOS 14.0 or higher**
 - **CocoaPods 1.11.0 or higher**
 - **Swift 5.5 or higher**
@@ -113,9 +113,9 @@ This iOS application will simulate the MyClient application and integrate the Ca
    
    The CareVoiceOS SDK is integrated through CocoaPods with the following pods:
    ```ruby
-   pod 'CVDesign/iOS' , '3.0.4'
-   pod 'CVCommon/iOS' , '3.0.4'
-   pod 'CVWellness/iOS' , '3.0.4'
+   pod 'CVDesign/iOS' , '3.1.1'
+   pod 'CVCommon/iOS' , '3.1.1'
+   pod 'CVWellness/iOS' , '3.1.1'
    ```
    
 
