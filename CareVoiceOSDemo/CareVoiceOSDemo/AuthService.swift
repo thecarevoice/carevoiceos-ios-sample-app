@@ -142,7 +142,7 @@ extension AuthService {
         CVWellness.configureBaseURL("https://apis.carevoiceos.com")
         CVWellness.setupTenantCode(tenantCode: tenant)
         CVWellness.setupAuthorization(token: accessToken, refreshToken: refreshToken, expirationTime: Int(convertExpirationTime))
-        CVWellness.initializeSDK { viewController in
+        CVWellness.initializeSDK { success in
             completion(true)
         }
     }

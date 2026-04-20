@@ -14,9 +14,9 @@ PODS:
     - CocoaLumberjack/Core
   - CombineCocoa (0.4.1)
   - CombineExt (1.8.0)
-  - CVCommon (3.0.4):
-    - CVCommon/iOS (= 3.0.4)
-  - CVCommon/Core (3.0.4):
+  - CVCommon (3.1.1):
+    - CVCommon/iOS (= 3.1.1)
+  - CVCommon/Core (3.1.1):
     - Alamofire (= 5.10.2)
     - CocoaLumberjack/Swift (= 3.8.5)
     - CombineExt (= 1.8.0)
@@ -24,23 +24,23 @@ PODS:
     - Moya (= 15.0)
     - Moya/Combine (= 15.0)
     - SSZipArchive (= 2.4.3)
-  - CVCommon/iOS (3.0.4):
+  - CVCommon/iOS (3.1.1):
     - CVCommon/Core
-  - CVDesign (3.0.4):
-    - CVDesign/iOS (= 3.0.4)
-  - CVDesign/Core (3.0.4):
+  - CVDesign (3.1.1):
+    - CVDesign/iOS (= 3.1.1)
+  - CVDesign/Core (3.1.1):
     - ActiveLabel (= 1.1.0)
     - JTAppleCalendar (= 8.0.5)
     - Kingfisher (= 7.12.0)
     - MJRefresh (= 3.7.9)
     - SnapKit (= 5.7.1)
     - SwifterSwift (= 6.2.0)
-  - CVDesign/iOS (3.0.4):
+  - CVDesign/iOS (3.1.1):
     - CVDesign/Core
   - CVTDActivitySDK (0.0.1)
   - CVTDAsleepSDK (0.0.1)
   - CVTDBiosenseSignalSDK (0.0.1)
-  - CVWellness/Core (3.0.4):
+  - CVWellness/Core (3.1.1):
     - ActiveLabel (= 1.1.0)
     - AMPopTip (= 4.12.0)
     - AttributedString (= 3.4.2)
@@ -57,6 +57,7 @@ PODS:
     - DGCharts (= 5.1.0)
     - FloatingPanel (= 3.2.0)
     - GSPlayer (= 0.2.30)
+    - Instructions (= 2.3.0)
     - IQKeyboardManagerSwift (= 7.0.3)
     - KDCircularProgress (= 1.5.4)
     - KTVHTTPCache (= 3.0.0)
@@ -67,7 +68,7 @@ PODS:
     - SVProgressHUD (= 2.3.1)
     - TYCyclePagerView (= 1.2.0)
     - YYImage (= 1.0.4)
-  - CVWellness/iOS (3.0.4):
+  - CVWellness/iOS (3.1.1):
     - CVWellness/Core
   - Defaults (4.2.2)
   - DeviceKit (5.6.0)
@@ -77,6 +78,7 @@ PODS:
   - DZNEmptyDataSet (1.8.1)
   - FloatingPanel (3.2.0)
   - GSPlayer (0.2.30)
+  - Instructions (2.3.0)
   - IQKeyboardManagerSwift (7.0.3)
   - JTAppleCalendar (8.0.5)
   - JWTDecode (3.3.0)
@@ -139,9 +141,9 @@ PODS:
   - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
-  - CVCommon/iOS (= 3.0.4)
-  - CVDesign/iOS (= 3.0.4)
-  - CVWellness/iOS (= 3.0.4)
+  - CVCommon/iOS (= 3.1.1)
+  - CVDesign/iOS (= 3.1.1)
+  - CVWellness/iOS (= 3.1.1)
   - JWTDecode (~> 3.3)
 
 SPEC REPOS:
@@ -170,6 +172,7 @@ SPEC REPOS:
     - DZNEmptyDataSet
     - FloatingPanel
     - GSPlayer
+    - Instructions
     - IQKeyboardManagerSwift
     - JTAppleCalendar
     - JWTDecode
@@ -199,18 +202,19 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
   CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
   CombineExt: c4daa97ef75754d8ef319bd79edeef82652f3eea
-  CVCommon: 9d3b2fb6579a550015f84d099b3edcd0242c0693
-  CVDesign: dbecf65c643effd216495da95c86b6cca30cc28a
+  CVCommon: 7d1a43b588cf09e5296016aa5e2baaebac6ee3a6
+  CVDesign: bf8a492c6161f6b4f41f0f477592350530dd363a
   CVTDActivitySDK: 0859380e0025537285f992d6a8ef291e35db555f
   CVTDAsleepSDK: 206389d4b831fdc36d4bad93204964df0da7c5bd
   CVTDBiosenseSignalSDK: bea2b007780e5cc3bf523aa49f0516ba2c621844
-  CVWellness: 4d0766dfe20ed43db3945d37514f2ef51f65f712
+  CVWellness: 0fdcf023a679cecef0481552d91e603d9231acc5
   Defaults: d785e56c0fb8890dc40351603f05c8e1df1bdd45
   DeviceKit: 9f2e0b68984a384f864b0f4e40a54bae43636bd8
   DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FloatingPanel: 5bc5d1fbcf146882b64747077070b75ae9cfff34
   GSPlayer: 3529df8cfbdf1aaa45d77da332cc055ac40e61c4
+  Instructions: 3aac22d036495ba4c40e00747e0a275da40ce53d
   IQKeyboardManagerSwift: f9c5dc36cba16ddd2e51fa7d51c34a2e083029b5
   JTAppleCalendar: 16c6501b22cb27520372c28b0a2e0b12c8d0cd73
   JWTDecode: 1ca6f765844457d0dd8690436860fecee788f631
@@ -230,6 +234,6 @@ SPEC CHECKSUMS:
   TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: 1dc513f6eaec417eaaf6df2d270de02b6ef03991
+PODFILE CHECKSUM: 776c5a0900b99238b1944fc6be1e2c670f49bb1f
 
 COCOAPODS: 1.16.2
